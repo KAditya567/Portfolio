@@ -3,79 +3,84 @@
     box-sizing: border-box;
 }
 
-.bio{
-    font-size: large;
-    line-height: 30px;
-}
-.myinfo{
-    font-size: large;
-}
-.main-image{
-    height: 75vh;
-    overflow: hidden;
-}
-.links{
-    display: flex;
-    align-items: center;
-    /* justify-content: center; */
 
-    &::before{
-        background-color: rgba(255, 255, 255, .25);
-        content: '';
-        height: 2px;
-        margin-right: 50px;
-        margin-left: -35px;
-        width: 100px;
-
+    .bio{
+        font-size: large;
+        line-height: 30px;
     }
-}
-.links li{
-    list-style: none;
-    margin-right: 35px;
-}
-button{
-    padding: 10px 20px;
-    border: 2px solid white;
-    background-color: transparent;
-    border-radius: 30px;
-    color: white;
-
-    &:hover{
-    border: 2px solid var(--main);
-    color: var(--main);
+    .myinfo{
+        font-size: large;
+    }
+    .main-image{
+        height: 75vh;
+        overflow: hidden;
+    }
+    .links{
+        display: flex;
+        align-items: center;
+    }
+    .links li{
+        list-style: none;
+        margin-right: 35px;
+    }
+    button{
+        padding: 10px 20px;
+        border: 2px solid white;
+        background-color: transparent;
+        border-radius: 30px;
+        color: white;
+    
+        &:hover{
+        border: 2px solid var(--main);
+        color: var(--main);
+            
+        }
+    }
+    .links  a{
+        color: aliceblue;
+    
+        &:hover{
+            color: var(--main);
+        }
+    }
+     i{
+        font-size: 30px;
+    }
+    .heading{
+        font-size: 60px;
+        font-weight: bold;
+        padding: 0px 0px 50px 0px;
+    }
+    .service-box{
+        width: 30%;
+        padding: 40px 60px;
+        background-color: #161616;
+        border-bottom: 3px solid rgba(255, 0, 0, 0);
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
         
+        
+        &:hover{
+            border-bottom: 3px solid var(--main);
+        }
     }
-}
-.links  a{
-    color: aliceblue;
-
-    &:hover{
+    .icon{
+        font-size: 60px;
         color: var(--main);
     }
+    @media only screen and (min-width: 1024px) {
+        .service-box{
+        width: 30%;
+           
+        }
 }
- i{
-    font-size: 30px;
-}
-
-/* about end here  */
-.heading{
-    font-size: 60px;
-    font-weight: bold;
-    padding: 0px 0px 50px 0px;
-}
-.service-box{
-    width: 30%;
-    padding: 40px 60px;
-    background-color: #161616;
-    border-bottom: 3px solid rgba(255, 0, 0, 0);
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
-    
-    
-    &:hover{
-        border-bottom: 3px solid var(--main);
+@media only screen and (max-width: 992px) {
+    .service-box{
+        width: 48%;
     }
 }
-.icon{
-    font-size: 60px;
-    color: var(--main);
-}
+
+@media only screen and (max-width: 600px) {
+    .service-box{
+        width: auto;
+    }
+  }
