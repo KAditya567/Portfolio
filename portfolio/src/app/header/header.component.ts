@@ -14,6 +14,16 @@ import { ContactComponent } from './contact/contact.component';
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
+//   const typed: Typed = new Typed("#title", {
+//     strings: ["Designer", "Developer"],
+//     typeSpeed: 60,
+//     backSpeed: 60,
+//     loop: true
+//   }
+// );
+  
+  
+  
   
 
 }
