@@ -33,19 +33,18 @@
         background-color: transparent;
         border-radius: 30px;
         color: white;
-    
-        &:hover{
+    }
+    .button:hover{
         border: 2px solid var(--main);
         color: var(--main);
-            
-        }
+
+
     }
     .links  a{
         color: aliceblue;
-    
-        &:hover{
-            color: var(--main);
-        }
+    }
+    .links a:hover{
+        color: var(--main);
     }
      i{
         font-size: 30px;
@@ -61,11 +60,11 @@
         background-color: #161616;
         border-bottom: 3px solid rgba(255, 0, 0, 0);
         box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
-        
-        
-        &:hover{
-            border-bottom: 3px solid var(--main);
-        }
+      
+    }
+    .service-box:hover{
+        border-bottom: 3px solid var(--main);
+
     }
     .icon{
         font-size: 60px;

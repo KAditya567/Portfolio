@@ -28,7 +28,7 @@ i {
 }
 .link {
   font-size: 50px;
-  &:hover {
-    color: var(--main);
-  }
+}
+.link:hover {
+  color: var(--main);
 }

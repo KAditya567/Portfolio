@@ -12,7 +12,6 @@ body{
 .scroll-icon{
   color: var(--main);
   font-size: 50px;
-  /* background-color: white; */
 }
 .main {
   width: 100%;
